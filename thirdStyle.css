@@ -1,0 +1,36 @@
+#canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    box-shadow: 8.0px 16.0px 16.0px hsl (Odeg 0% 0% / 0.25);
+    background-color: white;
+}
+
+body, html{
+    background-color: lightgrey;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#clearButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lime;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+}
+
+#clearButton:hover {
+    background-color: black;
+    color: lime;
+}
