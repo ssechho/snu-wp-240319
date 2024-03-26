@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>gugudan without AI</title>
+   </head>
+
+   <body>
+
+    <button id="gugudan1">1</button>
+    <button id="gugudan2">2</button>
+    <button id="gugudan3">3</button>
+    <button id="gugudan4">4</button>
+    <button id="gugudan5">5</button>
+    <button id="gugudan6">6</button>
+    <button id="gugudan7">7</button>
+    <button id="gugudan8">8</button>
+    <button id="gugudan9">9</button>
+
+    <p id="output">Output:</p>
+
+
+    <script>
+        const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+        const gugudan1 = document.getElementById("gugudan1");
+
+        gugudan1.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "1 * " + String(element) + " = " + String(element * 1);
+            output.appendChild(clickStatus);
+          })
+        })
+
+        const gugudan2 = document.getElementById("gugudan2");
+
+        gugudan2.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "2 * " + String(element) + " = " + String(element * 2);
+            output.appendChild(clickStatus);
+          })
+        })
+
+        const gugudan3 = document.getElementById("gugudan3");
+
+        gugudan3.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "3 * " + String(element) + " = " + String(element * 3);
+            output.appendChild(clickStatus);
+          })
+        })
+
+        const gugudan4 = document.getElementById("gugudan4");
+
+        gugudan4.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "4 * " + String(element) + " = " + String(element * 4);
+            output.appendChild(clickStatus);
+          })
+        })
+
+        const gugudan5 = document.getElementById("gugudan5");
+
+        gugudan5.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "5 * " + String(element) + " = " + String(element * 5);
+            output.appendChild(clickStatus);
+          })
+        })
+
+        const gugudan6 = document.getElementById("gugudan6");
+
+        gugudan6.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "6 * " + String(element) + " = " + String(element * 6);
+            output.appendChild(clickStatus);
+          })
+        })
+
+
+        const gugudan7 = document.getElementById("gugudan7");
+
+        gugudan7.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "7 * " + String(element) + " = " + String(element * 7);
+            output.appendChild(clickStatus);
+          })
+        })
+        
+        const gugudan8 = document.getElementById("gugudan8");
+
+        gugudan8.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "8 * " + String(element) + " = " + String(element * 8);
+            output.appendChild(clickStatus);
+          })
+        })
+
+        const gugudan9 = document.getElementById("gugudan9");
+
+        gugudan9.addEventListener("click", function () {
+          const output = document.getElementById("output");
+          arr.forEach(function(element){
+            let clickStatus = document.createElement("div");
+            clickStatus.setAttribute("class", "status");
+            clickStatus.innerHTML = "9 * " + String(element) + " = " + String(element * 9);
+            output.appendChild(clickStatus);
+          })
+        })
+
+    </script>
+
+   </body>
+
